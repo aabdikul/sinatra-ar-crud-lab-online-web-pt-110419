@@ -2,6 +2,6 @@
 <h2>Article Content: <%=@this_article.content%></h2>
 
 <form method = "POST" action = '/articles/<%=@article.id%>'>
-  <input type="hidden" name="_method" value="DELETE">
+  <input type= "hidden" name= "_method" id = "hidden" value= "DELETE">
   <input type="submit" value="Delete Article?">
 </form>
